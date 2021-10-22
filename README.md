@@ -4,7 +4,21 @@ A few printable sheets for Chummer5.
 Chummer is a character generator for Shadowrun 5th edition.
 https://github.com/chummer5a/chummer5a
 
+---
+
+### Table of Contents  
+- [How to install](#install)  
+  - [From the zip-fil](#installzip)  
+  - [By copying the files](#installcopy)  
+- [Descriptions of the sheets](#desc)  
+
+---
+
+<a name="install"/>
+
 ## How to install
+
+<a name="installzip"/>
 
 ### From the zip-file
 
@@ -13,7 +27,7 @@ https://github.com/chummer5a/chummer5a
 1. Unzip the contents of this zip-file.
 
 2. Move the "MrAtoni Sheets" folder into the folder where your chummer program is.
-  - "MrAtoni Sheets" **HAS TO BE** a subfolder of the folder where Chummer5.exe is.
+    - "MrAtoni Sheets" **HAS TO BE** a subfolder of the folder where Chummer5.exe is.
 
 3. In the "MrAtoni Sheets" folder, run Install.bat
 
@@ -23,20 +37,22 @@ Install.bat has to be rerun each time you upgrade Chummer.
 
 ### By copying the files
 
+<a name="installcopy"/>
+
 **Make sure Chummer5 isn't running.** If it is, close it.
 
 1. Download the following files in your prefered way:
-  - MrAtonis Combat Stats.xsl
-  - MrAtonis Combat stats.xslt
-  - MrAtonis Decker Sheet.xsl
-  - MrAtonis Decker Sheet.xslt
+    - MrAtonis Combat Stats.xsl
+    - MrAtonis Combat stats.xslt
+    - MrAtonis Decker Sheet.xsl
+    - MrAtonis Decker Sheet.xslt
 
 2. Locate where Chummer is on your disk (The folder with Chummer5.exe)
 
 3. Move the downloaded files to the sheets-folder inside the Chummer-directory.
 
 4. Open the file [Chummer-directory]\data\sheets.xml
-  - It's recomended that you **create a backup** of the file first
+    - It's recomended that you **create a backup** of the file first
 
 5. After `<sheets lang="en-us">` add the following codesnippet, and save.
 ```xml
@@ -56,6 +72,9 @@ When you start Chummer next time, the new sheets should now be found in the prin
 
 You have to redo step 4 and 5 each time you update Chummer.
 
+---
+
+<a name="desc"/>
 
 ## Description of the sheets
 
